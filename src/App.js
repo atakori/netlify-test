@@ -27,7 +27,7 @@ function App() {
       {/* TERIATIARY STATEMENT */}
       {/* Think of this as a If/else statement. IF the user is loggedIn, THEN we will see the Super Secret Message */}
       {/* ELSE we will show nothing. We can use this to show different html or component depending on a variable value */}
-      {loggedIn ? <p>SUPER SECRET MESSAGE</p> : ''}
+      {loggedIn ? <p>IT WORKED!</p> : ''}
       
     </div>
   );
